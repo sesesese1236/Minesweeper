@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/tileR6C5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR6C4"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR6C4"
+        app:layout_constraintTop_toTopOf="@+id/tileR6C4"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR6C6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR6C5"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR6C5"
+        app:layout_constraintTop_toTopOf="@+id/tileR6C5"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR6C7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR6C6"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR6C6"
+        app:layout_constraintTop_toTopOf="@+id/tileR6C6"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR5C4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR5C3"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR5C3"
+        app:layout_constraintTop_toTopOf="@+id/tileR5C3"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR5C5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR5C4"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR5C4"
+        app:layout_constraintTop_toTopOf="@+id/tileR5C4"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR5C6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR5C5"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR5C5"
+        app:layout_constraintTop_toTopOf="@+id/tileR5C5"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR5C7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR5C6"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR5C6"
+        app:layout_constraintTop_toTopOf="@+id/tileR5C6"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR5C2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR5C1"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR5C1"
+        app:layout_constraintTop_toTopOf="@+id/tileR5C1"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR5C3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR5C2"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR5C2"
+        app:layout_constraintTop_toTopOf="@+id/tileR5C2"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR2C0"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="@+id/tileR1C0"
+        app:layout_constraintStart_toStartOf="@+id/tileR1C0"
+        app:layout_constraintTop_toBottomOf="@+id/tileR1C0"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR2C2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR2C1"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR2C1"
+        app:layout_constraintTop_toTopOf="@+id/tileR2C1"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR2C3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR2C2"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR2C2"
+        app:layout_constraintTop_toTopOf="@+id/tileR2C2"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR2C7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR2C6"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR2C6"
+        app:layout_constraintTop_toTopOf="@+id/tileR2C6"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR2C1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR2C0"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR2C0"
+        app:layout_constraintTop_toTopOf="@+id/tileR2C0"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR2C4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR2C3"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR2C3"
+        app:layout_constraintTop_toTopOf="@+id/tileR2C3"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR2C5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR2C4"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR2C4"
+        app:layout_constraintTop_toTopOf="@+id/tileR2C4"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR2C6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@id/tileR2C5"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@id/tileR2C5"
+        app:layout_constraintTop_toTopOf="@id/tileR2C5"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR1C0"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="@+id/tileR0C0"
+        app:layout_constraintStart_toStartOf="@+id/tileR0C0"
+        app:layout_constraintTop_toBottomOf="@+id/tileR0C0"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR1C2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR1C1"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR1C1"
+        app:layout_constraintTop_toTopOf="@+id/tileR1C1"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR1C3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR1C2"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR1C2"
+        app:layout_constraintTop_toTopOf="@+id/tileR1C2"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR1C7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR1C6"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR1C6"
+        app:layout_constraintTop_toTopOf="@+id/tileR1C6"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR7C0"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="@+id/tileR6C0"
+        app:layout_constraintStart_toStartOf="@+id/tileR6C0"
+        app:layout_constraintTop_toBottomOf="@+id/tileR6C0"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR7C1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR7C0"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR7C0"
+        app:layout_constraintTop_toTopOf="@+id/tileR7C0"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR7C2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR7C1"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR7C1"
+        app:layout_constraintTop_toTopOf="@+id/tileR7C1"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR7C3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR7C2"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR7C2"
+        app:layout_constraintTop_toTopOf="@+id/tileR7C2"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR7C4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR7C3"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR7C3"
+        app:layout_constraintTop_toTopOf="@+id/tileR7C3"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR7C5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR7C4"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR7C4"
+        app:layout_constraintTop_toTopOf="@+id/tileR7C4"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR7C6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR7C5"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR7C5"
+        app:layout_constraintTop_toTopOf="@+id/tileR7C5"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR7C7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR7C6"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR7C6"
+        app:layout_constraintTop_toTopOf="@+id/tileR7C6"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileFlag"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="modeChange"
+        app:layout_constraintBottom_toTopOf="@id/txtGame"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="@+id/tileR7C7"
+        app:layout_constraintStart_toStartOf="@+id/tileR7C0"
+        app:layout_constraintTop_toBottomOf="@+id/tileR7C4"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/flagged" />
+
+    <ImageView
+        android:id="@+id/tileR6C0"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="@+id/tileR5C0"
+        app:layout_constraintStart_toStartOf="@+id/tileR5C0"
+        app:layout_constraintTop_toBottomOf="@+id/tileR5C0"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR6C1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR6C0"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR6C0"
+        app:layout_constraintTop_toTopOf="@+id/tileR6C0"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR6C2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR6C1"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR6C1"
+        app:layout_constraintTop_toTopOf="@+id/tileR6C1"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR6C3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR6C2"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR6C2"
+        app:layout_constraintTop_toTopOf="@+id/tileR6C2"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR6C4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR6C3"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR6C3"
+        app:layout_constraintTop_toTopOf="@+id/tileR6C3"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR5C0"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="@+id/tileR4C0"
+        app:layout_constraintStart_toStartOf="@+id/tileR4C0"
+        app:layout_constraintTop_toBottomOf="@+id/tileR4C0"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR5C1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR5C0"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR5C0"
+        app:layout_constraintTop_toTopOf="@+id/tileR5C0"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR4C0"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="@+id/tileR3C0"
+        app:layout_constraintStart_toStartOf="@+id/tileR3C0"
+        app:layout_constraintTop_toBottomOf="@+id/tileR3C0"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR4C1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR4C0"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR4C0"
+        app:layout_constraintTop_toTopOf="@+id/tileR4C0"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR4C2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR4C1"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR4C1"
+        app:layout_constraintTop_toTopOf="@+id/tileR4C1"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR4C3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR4C2"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR4C2"
+        app:layout_constraintTop_toTopOf="@+id/tileR4C2"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR4C4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR4C3"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR4C3"
+        app:layout_constraintTop_toTopOf="@+id/tileR4C3"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR4C5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR4C4"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR4C4"
+        app:layout_constraintTop_toTopOf="@+id/tileR4C4"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR4C6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR4C5"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR4C5"
+        app:layout_constraintTop_toTopOf="@+id/tileR4C5"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR4C7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR4C6"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR4C6"
+        app:layout_constraintTop_toTopOf="@+id/tileR4C6"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR3C0"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="@+id/tileR2C0"
+        app:layout_constraintStart_toStartOf="@+id/tileR2C0"
+        app:layout_constraintTop_toBottomOf="@+id/tileR2C0"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR3C1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR3C0"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR3C0"
+        app:layout_constraintTop_toTopOf="@+id/tileR3C0"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR3C2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR3C1"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR3C1"
+        app:layout_constraintTop_toTopOf="@+id/tileR3C1"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR3C3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR3C2"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR3C2"
+        app:layout_constraintTop_toTopOf="@+id/tileR3C2"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR3C4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR3C3"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR3C3"
+        app:layout_constraintTop_toTopOf="@+id/tileR3C3"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR3C5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR3C4"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR3C4"
+        app:layout_constraintTop_toTopOf="@+id/tileR3C4"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile"
+        android:clickable="true" />
+
+    <ImageView
+        android:id="@+id/tileR3C6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR3C5"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR3C5"
+        app:layout_constraintTop_toTopOf="@+id/tileR3C5"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR3C7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR3C6"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR3C6"
+        app:layout_constraintTop_toTopOf="@+id/tileR3C6"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR1C1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR1C0"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR1C0"
+        app:layout_constraintTop_toTopOf="@+id/tileR1C0"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR1C4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR1C3"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR1C3"
+        app:layout_constraintTop_toTopOf="@+id/tileR1C3"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR1C5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR1C4"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR1C4"
+        app:layout_constraintTop_toTopOf="@+id/tileR1C4"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR1C6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR1C5"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR1C5"
+        app:layout_constraintTop_toTopOf="@+id/tileR1C5"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR0C7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR0C6"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR0C6"
+        app:layout_constraintTop_toTopOf="@+id/tileR0C6"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR0C6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR0C5"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR0C5"
+        app:layout_constraintTop_toTopOf="@+id/tileR0C5"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR0C5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR0C4"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR0C4"
+        app:layout_constraintTop_toTopOf="@+id/tileR0C4"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR0C3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR0C2"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR0C2"
+        app:layout_constraintTop_toTopOf="@+id/tileR0C2"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR0C4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR0C3"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR0C3"
+        app:layout_constraintTop_toTopOf="@+id/tileR0C3"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR0C0"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR0C1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR0C0"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR0C0"
+        app:layout_constraintTop_toTopOf="@+id/tileR0C0"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/tileR0C2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:onClick="tileClick"
+        app:layout_constraintBottom_toBottomOf="@+id/tileR0C1"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/tileR0C1"
+        app:layout_constraintTop_toTopOf="@+id/tileR0C1"
+        app:layout_constraintWidth_percent="0.10"
+        app:srcCompat="@drawable/tile"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/btnRestart"
+        app:layout_constraintEnd_toEndOf="@+id/txtGame"
+        app:layout_constraintStart_toStartOf="@+id/txtGame"
+        app:layout_constraintTop_toBottomOf="@id/txtGame" />
+
+    <TextView
+        android:id="@+id/txtGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/txtTime"
+        app:layout_constraintEnd_toEndOf="@+id/tileR7C7"
+        app:layout_constraintStart_toStartOf="@+id/tileR7C0"
+        app:layout_constraintTop_toBottomOf="@id/tileFlag" />
+
+    <Button
+        android:id="@+id/btnRestart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="restart"
+        android:text="Restart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/txtTime"
+        app:layout_constraintStart_toStartOf="@+id/txtTime"
+        app:layout_constraintTop_toBottomOf="@id/txtTime" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
